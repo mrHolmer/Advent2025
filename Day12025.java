@@ -7,7 +7,7 @@ public class Day12025 {
     public static int zeros = 0;
     public static int line = 1;
     public static void main(String[] args) throws FileNotFoundException {
-        File f = new File("src/202501.txt");
+        File f = new File("202501.txt");
         Scanner s = new Scanner(f);
         while (s.hasNext()) {
             //rotate(s.next());
@@ -49,3 +49,4 @@ public class Day12025 {
         }
     }
 }
+
